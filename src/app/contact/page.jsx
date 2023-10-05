@@ -47,7 +47,7 @@ function RadioInput({ label, ...props }) {
 function ContactForm() {
   return (
     <FadeIn className="lg:order-last">
-      <form>
+      <form  action="https://getform.io/f/63a727dc-3b04-4634-ac16-40ae4ea813cf" method="POST" enctype="multipart/form-data" >
         <h2 className="font-display text-base font-semibold text-neutral-950">
            inquiries
         </h2>

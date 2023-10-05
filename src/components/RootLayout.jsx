@@ -136,15 +136,15 @@ function Navigation() {
   return (
     <nav className="mt-px font-display text-5xl font-medium tracking-tight text-white">
       <NavigationRow>
-        <NavigationItem href="/work"><h1 className='text-5xl font-extrabold text-transparent bg-clip-text hover:bg-gradient-to-br from-sky-500 via-indigo-500 to-red-500 bg-white'>Conference</h1></NavigationItem>
+        <NavigationItem href="/conference"><h1 className='text-5xl font-extrabold text-transparent bg-clip-text hover:bg-gradient-to-br from-sky-500 via-indigo-500 to-red-500 bg-white'>Conference</h1></NavigationItem>
         <NavigationItem href="/about"><h1 className='text-5xl font-extrabold text-transparent bg-clip-text hover:bg-gradient-to-br from-sky-500 via-indigo-500 to-red-500 bg-white'>About Us</h1></NavigationItem>
       </NavigationRow>
       <NavigationRow>
-        <NavigationItem href="/process"><h1 className='text-5xl font-extrabold text-transparent bg-clip-text hover:bg-gradient-to-br from-sky-500 via-indigo-500 to-red-500 bg-white'>Committee</h1></NavigationItem>
-        <NavigationItem href="/blog"><h1 className='text-5xl font-extrabold text-transparent bg-clip-text hover:bg-gradient-to-br from-sky-500 via-indigo-500 to-red-500 bg-white'>Publication</h1></NavigationItem>
+        <NavigationItem href="/committe"><h1 className='text-5xl font-extrabold text-transparent bg-clip-text hover:bg-gradient-to-br from-sky-500 via-indigo-500 to-red-500 bg-white'>Committee</h1></NavigationItem>
+        <NavigationItem href="/publication"><h1 className='text-5xl font-extrabold text-transparent bg-clip-text hover:bg-gradient-to-br from-sky-500 via-indigo-500 to-red-500 bg-white'>Publication</h1></NavigationItem>
       </NavigationRow>
       <NavigationCol >
-        <NavigationItem href="/form"><h1 className='text-4xl font-extrabold text-transparent bg-clip-text hover:bg-gradient-to-br from-sky-500 via-indigo-500 to-red-500 bg-white'>Submission</h1></NavigationItem>
+        <NavigationItem href="/papersubmission"><h1 className='text-4xl font-extrabold text-transparent bg-clip-text hover:bg-gradient-to-br from-sky-500 via-indigo-500 to-red-500 bg-white'>Submission</h1></NavigationItem>
      
       </NavigationCol>
     </nav>

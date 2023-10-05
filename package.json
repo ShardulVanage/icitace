@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "email":"email dev --dir src/emails"
+    "email": "email dev --dir src/emails"
   },
   "browserslist": "defaults, not ie <= 11",
   "dependencies": {
@@ -27,6 +27,7 @@
     "focus-visible": "^5.2.0",
     "framer-motion": "^10.12.16",
     "next": "13.4.9",
+    "node-ccavenue": "^1.0.5",
     "nodemailer": "^6.9.5",
     "postcss-focus-visible": "^6.0.4",
     "react": "18.2.0",
