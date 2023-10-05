@@ -53,15 +53,15 @@ function ContactForm() {
         </h2>
         <div className="isolate mt-6 -space-y-px rounded-2xl bg-white/50">
         <TextInput label="title" name="title" autoComplete="title"  />
-          <TextInput label="Author Name" name="Author Name" autoComplete="name" />
-          <TextInput label="Co-Author Name" name="Co-Author Name" autoComplete="name" />
+          <TextInput label="Author Name" name="Author Name" autoComplete="Author" />
+          <TextInput label="Co-Author Name" name="Co-Author Name" autoComplete="Co-Author" />
           <TextInput label="Paper Title" name="Paper Title" autoComplete="name" />
-          <TextInput label="Institution/Department" name="Paper Title" autoComplete="name" />
-          <TextInput label="University/Organization" name="Paper Title" autoComplete="name" />
-          <TextInput label="Designation" name="Paper Title" autoComplete="name" />
-          <TextInput label="Countery" name="Paper Title" autoComplete="name" />
-          <TextInput label="City" name="Paper Title" autoComplete="name" />
-          <TextInput label="Contact No" name="Paper Title" autoComplete="name" type='tel' />
+          <TextInput label="Institution/Department" name="Institution/Department" autoComplete="Institution/Department" />
+          <TextInput label="University/Organization" name="University/Organization" autoComplete="University/Organization" />
+          <TextInput label="Designation" name="Designation" autoComplete="Designation" />
+          <TextInput label="Countery" name="Countery" autoComplete="Countery" />
+          <TextInput label="City" name="City" autoComplete="City" />
+          <TextInput label="Contact No" name="Contact No" autoComplete="Contact No" type='tel' />
           <TextInput label="Email"  type="email" name="email"autoComplete="email" />
           <TextInput label="Attach your Abstract"  type="file" name="Attach"autoComplete="Attach" />
          
@@ -87,7 +87,7 @@ function ContactForm() {
           </div>   
           <div className="border border-neutral-300 px-6 py-8 first:rounded-t-2xl last:rounded-b-2xl">
             <fieldset>
-              <legend className="text-base/6 text-neutral-500">DDo you want to become a volunteer reviewer of our advisory board ?</legend>
+              <legend className="text-base/6 text-neutral-500">Do you want to become a volunteer reviewer of our advisory board ?</legend>
               <div className="mt-6 grid grid-cols-1 gap-8 sm:grid-cols-2">
                 <RadioInput label="Yes " name="Do you want to become a volunteer reviewer of our advisory board ?" value="Yes" />
                 <RadioInput label="No" name="Do you want to become a volunteer reviewer of our advisory board ?" value="No" />
@@ -100,7 +100,7 @@ function ContactForm() {
   
               <div className="mt-6 grid grid-cols-1 gap-8 sm:grid-cols-2">
                 
-                <RadioInput label=" Submit with Copyright Form" name=" Submit with Copyright Form" value="yex" />
+                <RadioInput label=" Submit with Copyright Form" name=" Submit with Copyright Form" value="yes" />
              
               </div>
             </fieldset>
