@@ -110,6 +110,15 @@ function NavigationRow({ children }) {
     </div>
   )
 }
+function NavigationCol({ children }) {
+  return (
+    <div className="even:mt-px sm:bg-neutral-950   ">
+      <Container >
+        <div className="grid grid-cols-1 sm:grid-cols-1 ">{children}</div>
+      </Container>
+    </div>
+  )
+}
 
 function NavigationItem({ href, children }) {
   return (
@@ -134,6 +143,10 @@ function Navigation() {
         <NavigationItem href="/process"><h1 className='text-5xl font-extrabold text-transparent bg-clip-text hover:bg-gradient-to-br from-sky-500 via-indigo-500 to-red-500 bg-white'>Committee</h1></NavigationItem>
         <NavigationItem href="/blog"><h1 className='text-5xl font-extrabold text-transparent bg-clip-text hover:bg-gradient-to-br from-sky-500 via-indigo-500 to-red-500 bg-white'>Publication</h1></NavigationItem>
       </NavigationRow>
+      <NavigationCol >
+        <NavigationItem href="/form"><h1 className='text-4xl font-extrabold text-transparent bg-clip-text hover:bg-gradient-to-br from-sky-500 via-indigo-500 to-red-500 bg-white'>Submission</h1></NavigationItem>
+     
+      </NavigationCol>
     </nav>
   )
 }

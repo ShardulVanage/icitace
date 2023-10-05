@@ -51,7 +51,7 @@ export function Hero() {
               </div>
             ))}
           </dl>
-          <Button href="#" className="mt-10 w-1/2  py-4 items-center flex justify-center  bg-gradient-to-tr from-pink-500 via-red-500 to-yellow-500">
+          <Button href="/bookticket" className="mt-10 w-1/2  py-4 items-center flex justify-center  bg-gradient-to-tr from-pink-500 via-red-500 to-yellow-500">
             Get your tickets
           </Button>
         </div>

@@ -1,7 +1,7 @@
 import { useId } from 'react'
 import clsx from 'clsx'
 import Image from 'next/image'
-import logo from '@/images/Logo_03.png'
+import logo from 'images/Logo_03.png'
 
 export function Logomark({ invert = false, filled = false, ...props }) {
   let id = useId()
