@@ -6,29 +6,18 @@ import { Logo } from '@/components/Logo'
 import { socialMediaProfiles } from '@/components/SocialMedia'
 
 const navigation = [
-  {
-    title: 'Work',
-    links: [
-      { title: 'FamilyFund', href: '/work/family-fund' },
-      { title: 'Unseal', href: '/work/unseal' },
-      { title: 'Phobia', href: '/work/phobia' },
-      {
-        title: (
-          <>
-            See all <span aria-hidden="true">&rarr;</span>
-          </>
-        ),
-        href: '/work',
-      },
-    ],
-  },
+  
+  
   {
     title: 'Company',
     links: [
       { title: 'About', href: '/about' },
-      { title: 'Process', href: '/process' },
-      { title: 'Blog', href: '/blog' },
+      { title: 'Committe', href: '/committe' },
+      { title: 'Conference', href: '/conference' },
       { title: 'Contact us', href: '/contact' },
+      { title: 'Publication', href: '/publication' },
+      { title: 'PaperSubmission', href: '/papersubmission ' },
+
     ],
   },
   {

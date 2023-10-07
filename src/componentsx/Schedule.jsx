@@ -181,7 +181,7 @@ function ScheduleTabbed() {
         {({ selectedIndex }) =>
           schedule.map((day, dayIndex) => (
             <div
-              key={day.dateTime}
+              key={day.timeSlots.name}
               className={clsx(
                 'relative w-3/4 flex-none pr-4 sm:w-auto sm:pr-0',
                 dayIndex !== selectedIndex && 'opacity-70'
@@ -240,7 +240,7 @@ function TimeSlots({ day, className }) {
     >
       {day.timeSlots.map((timeSlot, timeSlotIndex) => (
         <li
-          key={timeSlot.start}
+          key={timeSlot.name}
           aria-label={`${timeSlot.name} talking about ${timeSlot.description} at ${timeSlot.start} - ${timeSlot.end} PST`}
         >
           {timeSlotIndex > 0 && (
@@ -276,7 +276,7 @@ function ScheduleStatic() {
       
     <div className="hidden lg:grid lg:grid-cols-2 lg:gap-x-8">
       {schedule.map((day) => (
-        <section key={day.dateTime}>
+        <section key={day.timeSlots.name}>
           <DaySummary day={day} />
           <TimeSlots day={day} className="mt-10" />
         </section>

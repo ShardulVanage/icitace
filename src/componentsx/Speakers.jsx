@@ -171,7 +171,7 @@ export function Speakers() {
             <Tab.List className="grid auto-cols-auto grid-flow-col justify-start gap-x-8 gap-y-10 whitespace-nowrap px-4 sm:mx-auto sm:max-w-2xl sm:grid-cols-3 sm:px-0 sm:text-center lg:grid-flow-row lg:grid-cols-1 lg:text-left">
               {({ selectedIndex }) =>
                 days.map((day, dayIndex) => (
-                  <div key={day.dateTime} className="relative lg:pl-8">
+                  <div key={day.speakers.name} className="relative lg:pl-8">
                     <DiamondIcon
                       className={clsx(
                         'absolute left-[-0.5px] top-[0.5625rem] hidden h-1.5 w-1.5 overflow-visible lg:block',
@@ -214,7 +214,7 @@ export function Speakers() {
                 unmount={false}
               >
                 {day.speakers.map((speaker, speakerIndex) => (
-                  <div key={speakerIndex}>
+                  <div key={speaker.name}>
                     <div className="group relative h-[17.5rem] transform overflow-hidden rounded-4xl">
                       <div
                         className={clsx(

@@ -62,7 +62,7 @@ export const socialMediaProfiles = [
   { title: 'Facebook', href: 'https://www.facebook.com/profile.php?id=100093913370106', icon: FacebookIcon },
   { title: 'Instagram', href: 'https://instagram.com', icon: InstagramIcon },
   { title: 'Linkdin', href: 'https://icitace.com/index.php#', icon: TwitterIcon },
-  { title: 'youtube', href: 'https://www.youtube.com/channel/UC7S20XH7iwmi5_42bqh0KCg', icon: GitHubIcon },
+  { title: 'Youtube', href: 'https://www.youtube.com/channel/UC7S20XH7iwmi5_42bqh0KCg', icon: GitHubIcon },
  
 ]
 
